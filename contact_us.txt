@@ -1,0 +1,12 @@
+<?php
+    $name = $_REQUEST['name'];
+    $phone = $_REQUEST['phone'];
+    $email = $_REQUEST['email'];
+    $message = $_REQUEST['message'];
+    $full_message = "Name: $name \n Phone: $phone \n Email: $email \n Message: $message \n"; 
+    mail("bestelectronicservices556@gmail.com","Best Electronic Services",$full_message,"From: $name <$email>");
+    echo "<script type='text/javascript'>alert('Your message sent successfully'); 
+    window.location.href='https://samplewebsitee.000webhostapp.com/';</script>";
+    // header("Location: https://samplewebsitee.000webhostapp.com/");
+   
+?>
