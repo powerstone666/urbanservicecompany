@@ -1,0 +1,9 @@
+
+
+@media (max-width: 480px) {
+  #desktop-head {
+     font-size: 10px;
+     text-overflow: ellipsis;
+  }
+    
+}
